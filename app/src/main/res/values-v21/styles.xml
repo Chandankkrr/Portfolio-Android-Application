@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MyCustomTheme" parent="android:Theme.Material.Light">
+        <item name="android:colorPrimary">@color/colorPrimary</item>
+        <item name="android:colorPrimaryDark">@color/colorPrimaryDark</item>
+        <!-- Override the color of UI controls -->
+        <item name="android:colorAccent">@color/colorAccent</item>
+        <!-- Override the color of ActionBar text color -->
+        <item name="android:textColor">@color/textColorPrimary</item>
+        <item name="android:textColorPrimary">@color/textColorPrimary</item>
+        <item name="android:navigationBarColor">@color/navigationBarColor</item>
+        <item name="android:windowBackground">@color/windowBackground</item>
+        <item name="android:colorControlHighlight">@color/colorAccent</item>
+    </style>
+
+
+    <style name="MyCustomFacebookTheme" parent="android:Theme.Material.Light">
+        <!-- Override the app bar color -->
+        <item name="android:colorPrimary">@color/colorPrimaryFacebook</item>
+        <item name="android:colorPrimaryDark">@color/colorPrimaryDarkFacebook</item>
+        <!-- Override the color of UI controls -->
+        <item name="android:colorAccent">@color/colorAccent</item>
+        <!-- Override the color of ActionBar text color -->
+        <item name="android:textColor">@color/textColorPrimary</item>
+        <item name="android:textColorPrimary">@color/textColorPrimary</item>
+        <item name="android:navigationBarColor">@color/navigationBarColor</item>
+        <item name="android:windowBackground">@color/windowBackground</item>
+    </style>
+
+    <style name="MyCustomGitHubTheme" parent="android:Theme.Material.Light">
+        <!-- Override the app bar color -->
+        <item name="android:colorPrimary">@color/colorPrimaryGitHub</item>
+        <item name="android:colorPrimaryDark">@color/colorPrimaryDarkGitHub</item>
+        <!-- Override the color of UI controls -->
+        <item name="android:colorAccent">@color/colorAccent</item>
+        <!-- Override the color of ActionBar text color -->
+        <item name="android:textColor">@color/textColorPrimary</item>
+        <item name="android:textColorPrimary">@color/textColorPrimary</item>
+        <item name="android:navigationBarColor">@color/navigationBarColor</item>
+        <item name="android:windowBackground">@color/windowBackground</item>
+    </style>
+
+    <style name="MyCustomLinkedInTheme" parent="android:Theme.Material.Light">
+        <!-- Override the app bar color -->
+        <item name="android:colorPrimary">@color/colorPrimaryLinkedIn</item>
+        <item name="android:colorPrimaryDark">@color/colorPrimaryDarkLinkedIn</item>
+        <!-- Override the color of UI controls -->
+        <item name="android:colorAccent">@color/colorAccent</item>
+        <!-- Override the color of ActionBar text color -->
+        <item name="android:textColor">@color/textColorPrimary</item>
+        <item name="android:textColorPrimary">@color/textColorPrimary</item>
+        <item name="android:navigationBarColor">@color/navigationBarColor</item>
+        <item name="android:windowBackground">@color/windowBackground</item>
+    </style>
+
+    <style name="MyCustomGooglePlusTheme" parent="android:Theme.Material.Light">
+        <!-- Override the app bar color -->
+        <item name="android:colorPrimary">@color/colorPrimaryGooglePlus</item>
+        <item name="android:colorPrimaryDark">@color/colorPrimaryDarkGooglePlus</item>
+        <!-- Override the color of UI controls -->
+        <item name="android:colorAccent">@color/colorAccent</item>
+        <!-- Override the color of ActionBar text color -->
+        <item name="android:textColor">@color/textColorPrimary</item>
+        <item name="android:textColorPrimary">@color/textColorPrimary</item>
+        <item name="android:navigationBarColor">@color/navigationBarColor</item>
+        <item name="android:windowBackground">@color/windowBackground</item>
+    </style>
+
+    <style name="MyResumeTheme" parent="android:Theme.Material.Light">
+        <!-- Override the app bar color -->
+        <item name="android:colorPrimary">@color/colorPrimaryResume</item>
+        <item name="android:colorPrimaryDark">@color/colorPrimaryDarkResume</item>
+        <!-- Override the color of UI controls -->
+        <item name="android:colorAccent">@color/colorAccent</item>
+        <!-- Override the color of ActionBar text color -->
+        <item name="android:textColor">@color/textColorPrimary</item>
+        <item name="android:textColorPrimary">@color/textColorPrimary</item>
+        <item name="android:navigationBarColor">@color/navigationBarColor</item>
+        <item name="android:windowBackground">@color/windowBackground</item>
+    </style>
+
+    </resources>
+
+

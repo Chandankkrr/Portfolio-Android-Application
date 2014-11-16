@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffffff"
+>
+
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/scrollView2"
+            android:background="@color/colorPrimaryDark">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="200dp"
+                android:layout_gravity="left|top"
+                android:elevation="5dp"
+                android:weightSum="3"
+                android:paddingBottom="10dp">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="175dp"
+                    android:layout_gravity="left|top"
+                    android:elevation="5dp"
+                    android:background="@color/colorPrimary"
+                    android:weightSum="1">
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="99dp"
+                        android:background="@color/colorPrimary"
+                        android:showDividers="end">
+
+                        <ImageView
+                            android:layout_width="125dp"
+                            android:layout_height="86dp"
+                            android:id="@+id/profileImageView"
+                            android:layout_gravity="top"
+                            android:src="@drawable/profile"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="10dp" />
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Chandan Rauniyar"
+                            android:id="@+id/nameTextView"
+                            android:textColor="@color/textColorPrimary"
+                            android:textSize="25dp"
+                            android:layout_gravity="center"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="fill_parent"
+                        android:layout_height="73dp"
+                        android:weightSum="1"
+                        android:paddingBottom="10dp"
+                        android:background="@color/colorPrimary">
+
+                        <ImageView
+                            android:layout_width="65dp"
+                            android:layout_height="match_parent"
+                            android:id="@+id/linkedInImageView"
+                            android:clickable="true"
+                            android:elevation="5dp"
+                            android:src="@drawable/linkedin_img"
+                            android:layout_marginRight="3dp"
+                            android:layout_marginLeft="1dp" />
+
+                        <ImageView
+                            android:layout_width="65dp"
+                            android:layout_height="match_parent"
+                            android:id="@+id/githubImageView"
+                            android:clickable="true"
+                            android:elevation="5dp"
+                            android:src="@drawable/github_img"
+                            android:layout_marginRight="3dp" />
+
+                        <ImageView
+                            android:layout_width="65dp"
+                            android:layout_height="match_parent"
+                            android:id="@+id/facebookImageView"
+                            android:src="@drawable/facebook_img"
+                            android:clickable="true"
+                            android:elevation="5dp"
+                            android:contentDescription="facebookImage"
+                            android:layout_marginRight="3dp"/>
+
+                        <ImageView
+                            android:layout_width="65dp"
+                            android:layout_height="match_parent"
+                            android:id="@+id/googleImageView"
+                            android:src="@drawable/googleplus_image"
+                            android:clickable="true"
+                            android:layout_marginRight="3dp" />
+
+                        <ImageView
+                            android:layout_width="65dp"
+                            android:layout_height="match_parent"
+                            android:id="@+id/gmailImageView"
+                            android:src="@drawable/gmail_img"
+                            android:clickable="true"
+                            android:elevation="5dp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1.70"
+                    android:background="@color/colorPrimary">
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Hi, My name is Chandan Rauniyar. I am a Melbourne based Information Technology Graduate looking for a suitable position to start my career as a SOFTWARE DEVELOPER"
+                        android:id="@+id/nameTextView1"
+                        android:textColor="@color/textColorPrimary"
+                        android:textSize="16dp"
+                        android:layout_gravity="center"
+                        android:background="@color/colorPrimary"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+    </RelativeLayout>

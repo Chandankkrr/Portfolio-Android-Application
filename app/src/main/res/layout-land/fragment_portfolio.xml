@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark" >
+
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/scrollView2"
+            android:background="@color/colorPrimaryDark">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|top"
+                android:elevation="5dp"
+                android:weightSum="3"
+                android:paddingBottom="10dp"
+                android:id="@+id/mainlayout">
+
+                <android.support.v7.widget.CardView
+                    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/card_view5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    card_view:cardCornerRadius="4dp"
+
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/colorPrimary">
+
+
+
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left|top"
+                        android:elevation="5dp"
+                        android:background="@color/colorPrimary"
+                        android:weightSum="1">
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:text="My Projects"
+                            android:id="@+id/projectsTextView"
+                            android:textColor="@color/textColorPrimary"
+                            android:textSize="25dp"
+                            android:layout_gravity="center"
+                            android:textStyle="bold"
+                            android:layout_marginLeft="10dp" />
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/card_view6"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    card_view:cardCornerRadius="4dp"
+                    android:layout_gravity="center_horizontal|top"
+
+                    android:layout_marginBottom="10dp">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.70"
+                        android:background="@color/colorPrimary">
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="1. Portfolio Website (August 2014)"
+                                android:id="@+id/nameTextView1"
+                                android:textColor="@color/textColorPrimary"
+                                android:textSize="16sp"
+                                android:layout_gravity="center"
+                                android:background="@color/colorPrimary"
+                                android:textStyle="bold"
+                                android:layout_marginLeft="10dp" />
+
+                            <ImageButton
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/portfolioInformation"
+                                android:src="@android:drawable/ic_menu_info_details"
+                                android:background="@color/colorPrimary" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:text="My portfolio website created in Visual Studio 2012 using ASP.NET MVC 4."
+                                android:id="@+id/portfolioDescription"
+                                android:textSize="16dp"
+                                android:layout_marginLeft="10dp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/imageView"
+                                android:src="@drawable/home_image"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:layout_marginBottom="10dp" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/card_view7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    card_view:cardCornerRadius="4dp"
+
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/colorPrimary">
+
+
+
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left|top"
+                        android:elevation="5dp"
+                        android:background="@color/colorPrimary"
+                        android:weightSum="1">
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="2. Australian Tax Calculator July 2014"
+                                android:id="@+id/taxAppTextView"
+                                android:textColor="@color/textColorPrimary"
+                                android:textSize="16dp"
+                                android:layout_gravity="center"
+                                android:background="@color/colorPrimary"
+                                android:layout_marginLeft="10dp" />
+
+                            <ImageButton
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/taxappInformation"
+                                android:src="@android:drawable/ic_menu_info_details"
+                                android:background="@color/colorPrimary" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:background="@color/colorPrimary">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Basic Australian Tax Calculator app to let you work out how much tax you are paying and and your income after tax. The calculations do not include the Medicare levy (usually 2%) or Medicare Levy Surcharge (1%-1.5%). Also the calculations do not take into account any tax rebates or tax offsets."
+                                android:id="@+id/textView"
+                                android:textSize="16dp"
+                                android:background="@color/colorPrimary"
+                                android:layout_marginLeft="10dp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="10dp">
+
+                            <HorizontalScrollView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/horizontalScrollView" >
+
+                                <LinearLayout
+                                    android:orientation="horizontal"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content">
+
+                                    <ImageView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:id="@+id/imageView2"
+                                        android:src="@drawable/taxcalculatorscreenshot1"
+                                        android:layout_marginLeft="10dp"
+                                        android:layout_marginRight="10dp"
+                                        android:layout_margin="10dp"
+                                        android:layout_marginTop="10dp" />
+
+                                    <ImageView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:id="@+id/imageView3"
+                                        android:src="@drawable/taxcalculatorscreenshot2"
+                                        android:layout_marginLeft="10dp"
+                                        android:layout_marginRight="10dp"
+                                        android:layout_margin="10dp"
+                                        android:layout_marginTop="10dp" />
+
+                                    <ImageView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:id="@+id/imageView4"
+                                        android:src="@drawable/taxcalculatorscreenshot3"
+                                        android:layout_marginLeft="10dp"
+                                        android:layout_marginRight="10dp"
+                                        android:layout_margin="10dp"
+                                        android:layout_marginTop="10dp" />
+                                </LinearLayout>
+                            </HorizontalScrollView>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/card_view8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    card_view:cardCornerRadius="4dp"
+
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/colorPrimary">
+
+
+
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left|top"
+                        android:elevation="5dp"
+                        android:background="@color/colorPrimary"
+                        android:weightSum="1">
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="3. CSU Exam Schedule (September 2013)"
+                                android:id="@+id/CSUAppTextView"
+                                android:textColor="@color/textColorPrimary"
+                                android:textSize="16dp"
+                                android:layout_gravity="center"
+                                android:background="@color/colorPrimary"
+                                android:layout_marginLeft="10dp" />
+
+                            <ImageButton
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/csuappInformation"
+                                android:src="@android:drawable/ic_menu_info_details"
+                                android:background="@color/colorPrimary" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:background="@color/colorPrimary">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Developed CSU Exam Schedule android application for Charles Sturt University, Study Center Melbourne. This application helps students to view their exam timetable."
+                                android:id="@+id/csuDescriptionTextView"
+                                android:textSize="16dp"
+                                android:background="@color/colorPrimary"
+                                android:layout_marginLeft="10dp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="10dp">
+
+                            <HorizontalScrollView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/horizontalScrollView1" >
+
+                                <LinearLayout
+                                    android:orientation="horizontal"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content">
+
+                                    <ImageView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:id="@+id/imageView5"
+                                        android:src="@drawable/csuscreenshot1"
+                                        android:layout_marginLeft="5dp"
+                                        android:layout_marginRight="5dp" />
+
+                                    <ImageView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:id="@+id/imageView6"
+                                        android:src="@drawable/csuscreenshot2"
+                                        android:layout_marginLeft="5dp"
+                                        android:layout_marginRight="5dp" />
+
+                                    <ImageView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:id="@+id/imageView7"
+                                        android:src="@drawable/csuscreenshot3"
+                                        android:layout_marginLeft="5dp"
+                                        android:layout_marginRight="5dp" />
+                                </LinearLayout>
+                            </HorizontalScrollView>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/card_view9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    card_view:cardCornerRadius="4dp"
+
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/colorPrimary">
+
+
+
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left|top"
+                        android:elevation="5dp"
+                        android:background="@color/colorPrimary"
+                        android:weightSum="1">
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="4. Map Application (July 2013)"
+                                android:id="@+id/MapAppTextView"
+                                android:textColor="@color/textColorPrimary"
+                                android:textSize="16dp"
+                                android:layout_gravity="center"
+                                android:background="@color/colorPrimary"
+                                android:layout_marginLeft="10dp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:background="@color/colorPrimary">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Map Application that pulls up static map images based on the user search. The user enters the location for the map image to be pulled up in the search bar and the application displays the result. The application also allows the user to zoom in and out of the map and take a screenshot of the screen which will be saved as an image file."
+                                android:id="@+id/mapDescriptionTextView"
+                                android:background="@color/colorPrimary"
+                                android:textSize="16dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginRight="10dp"
+                                android:layout_marginBottom="10dp" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/card_view10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    card_view:cardCornerRadius="4dp"
+
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/colorPrimary">
+
+
+
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left|top"
+                        android:elevation="5dp"
+                        android:background="@color/colorPrimary"
+                        android:weightSum="1">
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="5. Easy Car Rental (February 2012)"
+                                android:id="@+id/EasyCarRentalAppTextView"
+                                android:textColor="@color/textColorPrimary"
+                                android:textSize="16dp"
+                                android:layout_gravity="center"
+                                android:background="@color/colorPrimary"
+                                android:layout_marginLeft="10dp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:background="@color/colorPrimary">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Developing online car rental in class of Software Engineering and Software website Development project. The website allows users to make an online booking to rent a car. The online user friendly website allows the customers to rent a car from a variety of cars available and keep customers details in system database. Customers will be able to make an online search based on various criteria like location, car manufacturer, type. Customers can select upto many cars as they want for comparison. After the customer has chosen their preferred car, the system automatically directs them to another page for booking confirmation and payment."
+                                android:id="@+id/easycarrentalDescriptionTextView"
+                                android:background="@color/colorPrimary"
+                                android:textSize="16dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginRight="10dp"
+                                android:layout_marginBottom="10dp"/>
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+</RelativeLayout>

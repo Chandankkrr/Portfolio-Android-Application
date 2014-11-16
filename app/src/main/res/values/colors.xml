@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+    <color name="colorPrimary">#FF3F51B5</color>
+    <color name="colorPrimaryDark">#FF303F9F</color>
+    <color name="colorPrimaryDarkFacebook">#3B4A98</color>
+    <color name="colorPrimaryDarkGitHub">#FF303F9F</color>
+    <color name="colorPrimaryDarkLinkedIn">#0959B4</color>
+    <color name="colorPrimaryDarkGooglePlus">#DD3D39</color>
+    <color name="colorPrimaryDarkResume">#1976D2</color>
+    <color name="textColorPrimary">#ffffffff</color>
+    <color name="navigationBarColor">#ffff4081</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="colorAccent">#FFFF4081</color>
+
+    <color name="colorPrimaryFacebook">#3B5998</color>
+    <color name="colorPrimaryGitHub">#416DC4</color>
+    <color name="colorPrimaryLinkedIn">#0976b4</color>
+    <color name="colorPrimaryGooglePlus">#dd4b39</color>
+    <color name="colorPrimaryResume">#2196F3</color>
+
+</resources>
