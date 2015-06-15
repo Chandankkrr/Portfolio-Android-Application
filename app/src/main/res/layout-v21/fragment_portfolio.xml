@@ -223,23 +223,26 @@
                             android:layout_width="wrap_content"
                             android:layout_height="match_parent"
                             android:layout_marginTop="10dp"
-                            android:layout_marginBottom="10dp">
+                            android:layout_marginBottom="10dp"
+                            android:background="#ffffffff">
 
                             <HorizontalScrollView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:id="@+id/horizontalScrollView" >
+                                android:id="@+id/horizontalScrollView"
+                                android:background="#ffffff">
 
                                 <LinearLayout
                                     android:orientation="horizontal"
                                     android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content">
+                                    android:layout_height="wrap_content"
+                                    android:background="#ffffff">
 
                                     <ImageView
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
                                         android:id="@+id/imageView2"
-                                        android:src="@drawable/taxcalculatorscreenshot1"
+                                        android:src="@drawable/s4"
                                         android:layout_marginLeft="10dp"
                                         android:layout_marginRight="10dp"
                                         android:layout_margin="10dp"
@@ -249,7 +252,7 @@
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
                                         android:id="@+id/imageView3"
-                                        android:src="@drawable/taxcalculatorscreenshot2"
+                                        android:src="@drawable/s6"
                                         android:layout_marginLeft="10dp"
                                         android:layout_marginRight="10dp"
                                         android:layout_margin="10dp"
@@ -259,7 +262,7 @@
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
                                         android:id="@+id/imageView4"
-                                        android:src="@drawable/taxcalculatorscreenshot3"
+                                        android:src="@drawable/s7"
                                         android:layout_marginLeft="10dp"
                                         android:layout_marginRight="10dp"
                                         android:layout_margin="10dp"
@@ -346,23 +349,26 @@
                             android:layout_width="wrap_content"
                             android:layout_height="match_parent"
                             android:layout_marginTop="10dp"
-                            android:layout_marginBottom="10dp">
+                            android:layout_marginBottom="10dp"
+                            android:background="#ffffff">
 
                             <HorizontalScrollView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:id="@+id/horizontalScrollView1" >
+                                android:id="@+id/horizontalScrollView1"
+                                android:background="#ffffff">
 
                                 <LinearLayout
                                     android:orientation="horizontal"
                                     android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content">
+                                    android:layout_height="wrap_content"
+                                    android:background="#ffffff">
 
                                     <ImageView
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
                                         android:id="@+id/imageView5"
-                                        android:src="@drawable/csuscreenshot1"
+                                        android:src="@drawable/s3"
                                         android:layout_marginLeft="10dp"
                                         android:layout_marginRight="10dp"
                                         android:layout_margin="10dp"
@@ -372,7 +378,7 @@
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
                                         android:id="@+id/imageView6"
-                                        android:src="@drawable/csuscreenshot2"
+                                        android:src="@drawable/s1"
                                         android:layout_marginLeft="10dp"
                                         android:layout_marginRight="10dp"
                                         android:layout_margin="10dp"
@@ -382,7 +388,7 @@
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
                                         android:id="@+id/imageView7"
-                                        android:src="@drawable/csuscreenshot3"
+                                        android:src="@drawable/s2"
                                         android:layout_marginLeft="10dp"
                                         android:layout_marginRight="10dp"
                                         android:layout_margin="10dp"
